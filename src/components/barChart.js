@@ -369,7 +369,7 @@ export const barGraphConfig = {
 };
 
 const barGraphExample = () => (
-  <div style={{ width: '50vw', height: '50vh' }}>
+  <div style={{ width: '110%', height: '50vh' }}>
     <BarGraph config={barGraphConfig} />
   </div>
 );

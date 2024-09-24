@@ -157,7 +157,7 @@ export const pieGraphConfig = {
 };
 
 const PieGraphExample = () => (
-    <div style={{ width: '50vw', height: '50vh' }}>
+    <div style={{ width: '110%', height: '50vh' }}>
         <PieGraph config={pieGraphConfig} />
     </div>
 );

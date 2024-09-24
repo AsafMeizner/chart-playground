@@ -203,7 +203,7 @@ export const lineGraphConfig = {
     chartSettings: {
         showGridlines: true,
         gridlineColor: '#444444',
-        strokeWidth: 2,
+        strokeWidth: 4,
     },
     xKey: 'x',
     yAxisLabel: 'Value',
@@ -238,7 +238,7 @@ export const lineGraphConfig = {
 };
 
 const LineGraphExample = () => (
-    <div style={{ width: '50vw', height: '50vh' }}>
+    <div style={{ width: '110%', height: '50vh' }}>
         <LineGraph config={lineGraphConfig} />
     </div>
 );

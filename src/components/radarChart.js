@@ -171,7 +171,7 @@ export const radarGraphConfig = {
 };
 
 const RadarGraphExample = () => (
-    <div style={{ width: '50vw', height: '50vh' }}>
+    <div style={{ width: '110%', height: '50vh' }}>
         <RadarGraph config={radarGraphConfig} />
     </div>
 );

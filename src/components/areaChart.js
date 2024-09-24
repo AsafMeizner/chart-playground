@@ -351,7 +351,7 @@ export const areaGraphConfig = {
 };
 
 const AreaGraphExample = () => (
-    <div style={{ width: '50vw', height: '50vh' }}>
+    <div style={{ width: '110%', height: '50vh' }}>
         <AreaGraph config={areaGraphConfig} />
     </div>
 );
